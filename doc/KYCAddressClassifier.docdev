@@ -1,0 +1,23 @@
+{
+   "methods" : {
+      "classifyAddress(address)" : {
+         "params" : {
+            "_address" : "address to be classified\r"
+         },
+         "return" : "class of given address\r"
+      },
+      "setAddressClass(address,uint256)" : {
+         "params" : {
+            "_address" : "address to set class for\r",
+            "_class" : "class to set for given address\r"
+         }
+      },
+      "setClassPermission(uint256,address,bool)" : {
+         "params" : {
+            "_class" : "class to set permission to edit\r",
+            "_owner" : "owner to set permission to edit given class for\r",
+            "_permission" : "true to enable given owner to edit class, false to\r       disable\r"
+         }
+      }
+   }
+}

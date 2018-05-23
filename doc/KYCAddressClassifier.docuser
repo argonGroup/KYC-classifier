@@ -1,0 +1,13 @@
+{
+   "methods" : {
+      "classifyAddress(address)" : {
+         "notice" : "Classify given address.\r "
+      },
+      "setAddressClass(address,uint256)" : {
+         "notice" : "Set class for given address.\r "
+      },
+      "setClassPermission(uint256,address,bool)" : {
+         "notice" : "Set permission for the owner of given address to edit given class.\r "
+      }
+   }
+}
